@@ -1,33 +1,22 @@
 {
-  "name": "sequelize-node-app",
+  "name": "sequelize-2",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": ""
-  },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": ""
-  },
-  "homepage": "",
   "dependencies": {
-    "body-parser": "^1.17.2",
+    "body-parser": "^1.19.0",
     "dotenv": "^8.2.0",
-    "express": "^4.15.4",
-    "mysql": "^2.17.1",
-    "mysql2": "^1.4.1",
-    "sequelize": "^4.5.0",
-    "sequelize-auto": "^0.4.29",
-    "mem": ">=4.0.0",
-    "lodash": ">=4.17.13"
+    "express": "^4.17.1",
+    "init": "^0.1.2",
+    "mysql2": "^2.0.0",
+    "sequelize": "^5.21.2"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "sequelize-cli": "^5.5.1"
+  }
 }
