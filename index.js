@@ -8,14 +8,12 @@ const db = require('./models/index');
 
 // API ENDPOINTS
 app.get('/', (req, res) => {
-    
     return db.User.findAll()
-    .then((contacts) => res.send(contacts))
+    .then((users) => res.send(users))
     .catch((err) => {
         console.log('There was an error with query', JSON.stringify(err))
         return res.send(err)
     })
-    // res.json("This is the home page")
 });
 
 const port = 3000
